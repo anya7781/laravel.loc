@@ -75,6 +75,9 @@ Route::post('/exit', 'LoggedController@exit1');
 
 Route::post('place/{id_place}', 'LoggedController@place1');
 
+Route::any('/rating', 'IndexController@rating');
+
+
 
 
 
